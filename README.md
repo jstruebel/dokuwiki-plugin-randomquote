@@ -9,7 +9,9 @@ Each quote is a separate line in the `quotes.txt` file.
 
 After installing the plugin, all instances of `<randomquote>` will be replaced with a random quote. 
 
-To customize the quotes or to change the style, please create a `quotes.txt` in `/conf/randomquote` and edit the `userstyle.css` file in your `/conf` directory.
+To customize the quotes or to change the style, please create a `quotes.txt` in `/data/pages` and edit the `userstyle.css` file in your `/conf` directory.
+
+The `quotes.txt` file can be created through the wiki front-end by creating a top-level quotes page. You can use an ACL to restrict access to the `quotes.txt` file to prevent unauthorized modifications.
 
 ## Development
 
